@@ -1,0 +1,41 @@
+a {
+    text-decoration: none;
+}
+
+.Footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 100px;
+    background-color: #24647A;
+}
+
+.padding {
+    padding: 0 30px;
+}
+
+.copyright {
+    color: #D3E5EB;
+    font-size: 15px;
+}
+
+.Home-footer {
+    font-size: 15px;
+}
+
+.About_Us-footer {
+    font-size: 15px;
+}
+
+.Our_Services-footer {
+    font-size: 15px;
+}
+
+.Contact-footer {
+    font-size: 15px;
+}
+
+.footer-menu a {
+    color: #D3E5EB;
+}

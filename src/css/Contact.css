@@ -1,0 +1,12 @@
+.cont-img{
+    width: auto;
+    height: 16px;
+    padding: 10px;
+    border: 1px solid #22A395;
+    border-radius: 30px;
+    margin-left:  10px; ;
+}
+
+.alint-c{
+    align-items: center;
+}
