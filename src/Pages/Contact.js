@@ -50,11 +50,11 @@ function Contact() {
                     </div> */}
                 </div>
                 <div className="AboutUS-main-img">
-                    <form>
-                        <label>Enter your name:
-                            <input type="text" />
+                    {/* <form>
+                        <label className="label-name">Enter your name:
+                            <input type="email" />
                         </label>
-                    </form>
+                    </form> */}
                 </div>
             </div>
 
