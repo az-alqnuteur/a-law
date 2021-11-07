@@ -27,7 +27,8 @@ function Contact() {
                     <div className="msg alint-c ">
                         <img src={cnot1} className="cont-img" />
                         <div className="cont-main">
-                            <div className="main-text">الرياض - حي المرسلات - مخرج 9 - بالقرب من كلية الإتصالات وتقنية المعلومات</div>
+                            <div className="main-text"><a  href="https://goo.gl/maps/YWjZWGc1iXpQpKWK7">الرياض - حي المرسلات - مخرج 9 - بالقرب من كلية الإتصالات وتقنية المعلومات</a></div>
+                            
                         </div>
                     </div>
                     <div className="msg alint-c">

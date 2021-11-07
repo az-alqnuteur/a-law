@@ -1,6 +1,6 @@
 .NavBar{
     width: 100%;
-    height: 183px;
+    height: 160px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -30,7 +30,7 @@ a:hover{
 
 
 .Menu{
-    margin: 5rem 0 0 15rem;
+    margin: 5rem 0 0 12rem;
 }
 
 .Home {

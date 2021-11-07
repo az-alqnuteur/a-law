@@ -37,3 +37,16 @@
     width: auto;
     height: 573px;
 }
+
+
+@media only screen and (max-width: 1200px) {
+    .AboutUS-us {
+        flex-direction: column;
+    }
+    .wlcme-text {
+        width: 60%;
+    }
+    .us-img1{
+        display: none; 
+    }
+}

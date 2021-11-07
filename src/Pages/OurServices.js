@@ -24,43 +24,54 @@ function OurServices() {
                 <div className="titel">ماذا نقدم لك</div>
                 <div className="divdier" />
                 <div className="main-text">
-                نقدم لكم مجموعة من الخدمات في الجانب القانوني على سبيل المثال جميع الخدمات والإستشارات القانونية تأسيس الشركات الإستشارات والحلول الشرعية والقانونية التحرير وتقديم الطعون الموضوعية والفنية كتابة العقود واللوائح وغيرها من المستندات
+                    نقدم لكم مجموعة من الخدمات في الجانب القانوني على سبيل المثال جميع الخدمات والإستشارات القانونية تأسيس الشركات الإستشارات والحلول الشرعية والقانونية التحرير وتقديم الطعون الموضوعية والفنية كتابة العقود واللوائح وغيرها من المستندات
                 </div>
             </div>
             <div className="OS-boxs">
                 <div className="box">
                     <img src={os1} className="img-box" />
-                    <div className="os-text">تأسيس الشركات</div>
+                    <div className="os-text"> الشركات</div>
+                    <div className="os-text-s"> خدمات ما قبل التأسيس خدمات المطابقة، ومراجعة عقود الشركات.</div>
+                    <div className="os-text-s"> الاستشارات القانونية الخاصة بالشركات .</div>
+                    <div className="os-text-s"> الاندماج و الاستحواذ وهيكلة الشركات</div>
+                    <div className="os-text-s"> تصفية وإفلاس الشركات وفق نظام الافلاس</div>
+                    <div className="os-text-s"> تقديم المشورة القانونية لأعضاء مجلس إدارة الشركات.
+                    </div>
                 </div>
 
                 <div className="box">
                     <img src={os2} className="img-box" />
-                    <div className="os-text">الإستشارات والحلول الشرعية والقانونية</div>
+                    <div className="os-text">التقاضي وتسوية المنازعات</div>
+                    <div className="os-text-s">التمثيل القانوني أمام المحاكم والجهات القضائية، وشبه القضائية وهيئات التحكيم.</div>
                 </div>
 
                 <div className="box">
                     <img src={os3} className="img-box" />
-                    <div className="os-text">التحرير وتقديم الطعون للمستندات القانونية</div>
+                    <div className="os-text">الوصايا و التركات وكل مايخصها من صياغة متابعة وقسمة شرعية .</div>
                 </div>
 
                 <div className="box">
                     <img src={os4} className="img-box" />
-                    <div className="os-text">كتابة العقود واللوائح وغيرها من المستندات</div>
+                    <div className="os-text">البناء والمقاولة</div>
+                    <div className="os-text-s">عقود البناء والتشغيل ونقل الملكية والتعاقد من الباطن.</div>
                 </div>
 
                 <div className="box">
                     <img src={os5} className="img-box" />
-                    <div className="os-text">الريادة والتميز والمساهمة في تعزيز الثقافة القانونية الحديثة</div>
+                    <div className="os-text">محامي العائلة والخدمات الخاصة بها .</div>
                 </div>
 
                 <div className="box">
                     <img src={os6} className="img-box" />
-                    <div className="os-text">تكوين تجربة ناجحة لعملائنا وتقديمخدمات قانونية</div>
+                    <div className="os-text">أنظمة العمل و العمال</div>
                 </div>
 
                 <div className="box">
                     <img src={os7} className="img-box" />
-                    <div className="os-text">التميز في جميع خدمات المكتب</div>
+                    <div className="os-text">مراجعة عقود العمل لتتوافق مع أنظمة العمل في المملكة والحوافز ومكافآت نهاية الخدمة.</div>
+                    <div className="os-text-s">تسوية الخلافات العمالية</div>
+                    <div className="os-text-s">صياغة ومراجعة الأنظمة واللوائح الداخلية للمنشأة.</div>
+                    <div className="os-text-s">جراءات تسريح الموظفين والعمال.</div>
                 </div>
 
                 <div className="box">

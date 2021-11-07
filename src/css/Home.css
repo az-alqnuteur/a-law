@@ -53,20 +53,20 @@
     align-content: center;
 }
 
-.titel{
+.titel {
     display: inline-block;
     color: #21807A;
     font-size: 35px;
     font-weight: bold;
 }
 
-.divdier{
+.divdier {
     width: 8%;
     border-top: 2px solid #22A395;
     margin: 20px 0;
 }
 
-.main-text , .eye-text , .msg-text{
+.main-text, .eye-text, .msg-text {
     width: 80%;
     text-align: right;
     color: #4D4D4D;
@@ -75,12 +75,12 @@
     padding: 10px 0px 10px 20px;
 }
 
-.vig , .msg{
+.vig, .msg {
     display: flex;
     margin: 25px 0;
 }
 
-.icon{
+.icon {
     height: 19px;
     width: 30px;
     padding: 27px 19px;
@@ -89,31 +89,33 @@
     margin: 20px;
 }
 
-.eye-title , .msg-title {
+.eye-title, .msg-title {
     font-size: 20px;
     color: #21807A;
     margin: 20px 0;
     font-weight: bold;
 }
 
-.msg{
+.msg {
     margin: 20px 0;
 }
-.msg-icon{
+
+.msg-icon {
     height: 27px;
     width: auto;
 }
 
-.AboutUS-main-img{
+.AboutUS-main-img {
     position: relative;
 }
-.main-img1{
-        height: 584px;
-        width: auto;
-        padding: 0 40px 20px 0;
+
+.main-img1 {
+    height: 584px;
+    width: auto;
+    padding: 0 40px 20px 0;
 }
 
-.main-img2{
+.main-img2 {
     position: absolute;
     bottom: 0px;
     background-color: white;
@@ -122,4 +124,41 @@
     right: 0;
     width: auto;
     height: 320px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .AboutUS-main {
+        flex-direction: column;
+    }
+    .wlcme-text {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    .main-img1 {
+        height: 350px;
+    }
+    .main-img2 {
+        height: 197px;
+    }
+    .wlcme-text {
+        width: 72%;
+    }
+    .main-text, .eye-text, .msg-text {
+        margin: 0;
+        width: 100%;
+    }
+    .Menu {
+        margin: 3rem 17px 4px 11rem;
+    }
+}
+
+@media only screen and (max-width: 459px) {
+    .main-img1 {
+        display: none;
+    }
+    .main-img2 {
+        display: none;
+    }
 }
