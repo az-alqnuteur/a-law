@@ -66,7 +66,8 @@ function OurServices() {
 
                 <div className="box">
                     <img src={os6} className="img-box" />
-                    <div className="os-text">أنظمة العمل و العمال</div>
+                    <div className="os-text">الأوراق المالية</div>
+                    <div className="os-text-s">إعداد اللوائح والمذكرات والمرافعة والمدافعة امام لجنة الاوراق المالية .</div>
                 </div>
 
                 <div className="box">
