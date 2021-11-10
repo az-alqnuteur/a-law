@@ -30,35 +30,38 @@ function OurServices() {
             <div className="OS-boxs">
                 <div className="box">
                     <img src={os1} className="img-box" />
-                    <div className="os-text"> الشركات</div>
-                    <div className="os-text-s"> خدمات ما قبل التأسيس خدمات المطابقة، ومراجعة عقود الشركات.</div>
-                    <div className="os-text-s"> الاستشارات القانونية الخاصة بالشركات .</div>
-                    <div className="os-text-s"> الاندماج و الاستحواذ وهيكلة الشركات</div>
+                    <div className="os-text"> تأسيس الشركات</div>
+                    <div className="os-text-s"> مراجعة عقود الشركات.</div>
+                    <div className="os-text-s">الاستشارات القانونية الخاصة بالشركات .</div>
                     <div className="os-text-s"> تصفية وإفلاس الشركات وفق نظام الافلاس</div>
-                    <div className="os-text-s"> تقديم المشورة القانونية لأعضاء مجلس إدارة الشركات.
+                    <div className="os-text-s"> تقديم المشورة القانونية لأعضاء مجلس إدارة الشركات.</div>
+                </div>
+
+
+                <div className="box">
+                    <img src={os2} className="img-box" />
+                    <div className="os-text">التقاضي</div>
+                    <div className="os-text-s">التمثيل القانوني أمام المحاكم والجهات القضائية، وشبه القضائية وهيئات التحكيم.
                     </div>
                 </div>
 
                 <div className="box">
-                    <img src={os2} className="img-box" />
-                    <div className="os-text">التقاضي وتسوية المنازعات</div>
-                    <div className="os-text-s">التمثيل القانوني أمام المحاكم والجهات القضائية، وشبه القضائية وهيئات التحكيم.</div>
-                </div>
-
-                <div className="box">
                     <img src={os3} className="img-box" />
-                    <div className="os-text">الوصايا و التركات وكل مايخصها من صياغة متابعة وقسمة شرعية .</div>
+                    <div className="os-text">التركات والوصايا</div>
+                    <div className="os-text-s">كل مايخصها من صياغة ومتابعة وقسمة شرعية وفق الأنظمة المرعية.</div>
                 </div>
 
                 <div className="box">
                     <img src={os4} className="img-box" />
                     <div className="os-text">البناء والمقاولة</div>
                     <div className="os-text-s">عقود البناء والتشغيل ونقل الملكية والتعاقد من الباطن.</div>
+                    <div className="os-text-s">كتابة المخاطبات بين المتعاقدين وفق الأنظمة بما يكفل ضبط الحقوق .</div>
                 </div>
 
                 <div className="box">
                     <img src={os5} className="img-box" />
-                    <div className="os-text">محامي العائلة والخدمات الخاصة بها .</div>
+                    <div className="os-text">محامي العائلة .</div>
+                    <div className="os-text-s">وذلك بتقديم الحلول التجارية الوقائية بين الأسرة الواحدة ، وكذلك تعاملتها مع الغير بما يضمن ضبط العلاقة بين الأطراف .[</div>
                 </div>
 
                 <div className="box">
@@ -68,7 +71,8 @@ function OurServices() {
 
                 <div className="box">
                     <img src={os7} className="img-box" />
-                    <div className="os-text">مراجعة عقود العمل لتتوافق مع أنظمة العمل في المملكة والحوافز ومكافآت نهاية الخدمة.</div>
+                    <div className="os-text">أنظمة العمل</div>
+                    <div className="os-text-s">مراجعة عقود العمل لتتوافق مع أنظمة العمل في المملكة والحوافز ومكافآت نهاية الخدمة.</div>
                     <div className="os-text-s">تسوية الخلافات العمالية</div>
                     <div className="os-text-s">صياغة ومراجعة الأنظمة واللوائح الداخلية للمنشأة.</div>
                     <div className="os-text-s">جراءات تسريح الموظفين والعمال.</div>
@@ -76,9 +80,11 @@ function OurServices() {
 
                 <div className="box">
                     <img src={os8} className="img-box" />
-                    <div className="os-text">التميز في جميع خدمات المكتب</div>
+                    <div className="os-text">التحكيم</div>
+                    <div className="os-text-s">صياغة وثيقة التحكيم والقيام بدور المحكم</div>
                 </div>
             </div>
+
 
         </>
     );

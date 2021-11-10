@@ -54,5 +54,13 @@
 
     .box {
         height: 280px;
-        width: 40%;}
+        width: 80%;}
+}
+
+
+@media only screen and (max-width: 1150px) {
+
+    .box {
+        height: 280px;
+        width: 60%;}
 }
